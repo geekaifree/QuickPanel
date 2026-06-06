@@ -1,0 +1,24 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+		83C00BD519B3B66400C3AB76 /* Runner */ = {
+			isa = PBXNativeThread;
+			buildConfigurationList = 249021D3110A3AE20026A190 /* Build configuration list for PBXNativeProject "Runner" */;
+			buildPhases = (
+				533135A01E6A42A200268286 /* Run Script */,
+				83C00BDA19B3B66400C3AB76 /* Sources */,
+				83C00BDB19B3B66400C3AB76 /* Frameworks */,
+				83C00BDC19B3B66400C3AB76 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = Runner;
+			productName = Runner;
+			productReference = 83C00BD919B3B66400C3AB76 /* Runner.app */;
+		};
+	};
+}
