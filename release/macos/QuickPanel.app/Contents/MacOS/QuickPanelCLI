@@ -1,3 +1,5 @@
 #!/bin/bash
+# 获取脚本所在目录
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+# 在终端中运行CLI程序
 osascript -e "tell application \"Terminal\" to do script \"cd '$DIR' && ./QuickPanelCLI; echo; echo '按任意键退出...'; read -n 1\""
